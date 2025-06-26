@@ -1,0 +1,44 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "company": "TechCorp",
+      "location": "Remote",
+      "description": "Work with React.js and Rest APIs",
+      "postedBy": 101
+    },
+    {
+      "id": "2",
+      "title": "Backend Developer",
+      "company": "DataSoft",
+      "location": "Chennai",
+      "description": "Build backend services in Node.js.",
+      "postedBy": 102
+    }
+  ],
+  "users": [
+    {
+      "id": "101",
+      "name": "John Doe",
+      "email": "john@company.com",
+      "role": "recruiter",
+      "password": "pass"
+    },
+    {
+      "id": "201",
+      "name": "Bob Seeker",
+      "email": "bob@seeker.com",
+      "role": "jobseeker",
+      "password": "pass"
+    },
+    {
+      "id": "6aab",
+      "email": "bhuvana@company.com",
+      "password": "bhuvana123",
+      "role": "Recruiter",
+      "name": "Bhuvana"
+    }
+  ],
+  "applications": []
+}
