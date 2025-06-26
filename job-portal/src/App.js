@@ -3,6 +3,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import JobList from './components/JobList';
 import { useEffect, useState } from 'react';
+import JobDetail from './components/JobDetail';
 
 function App() {
   const [user, setUser] = useState('')
@@ -26,6 +27,7 @@ function App() {
         <Route path='/' element={<JobList />} />
         <Route path='/login' element={<Login login={login}/>} />
         <Route path='/register' element={<Register />} />
+        <Route path='/jobs/:id' element={<JobDetail user={user} />} />
       </Routes>
     </div>
   );
